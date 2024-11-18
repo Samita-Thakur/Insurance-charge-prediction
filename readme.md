@@ -1,8 +1,8 @@
-Insurance Charges Prediction
+**Insurance Charges Prediction
 
 This project aims to predict insurance charges using a linear regression model. The dataset contains various features such as demographic information, health indicators, and past medical history, which are utilized to understand the factors influencing insurance charges.
 
-Dataset Overview
+**Dataset Overview**
 The dataset consists of 1338 entries with the following columns:
 
 age-->	Age of the individual
@@ -20,7 +20,7 @@ region	Region of residence	Object
 charges	Insurance charges (target variable)	Float
 Some columns contain missing values that were handled as part of the preprocessing pipeline.
 
-Methodology
+**Methodology**
 Exploratory Data Analysis (EDA)
 
 Analyzed distributions of numerical features.
@@ -40,7 +40,7 @@ Evaluated the model using metrics such as Mean Squared Error (MSE) and R-squared
 Visualization
 
 Utilized matplotlib to visualize correlations, feature importance, and model performance.
-Libraries Used
+**Libraries Used**
 The project is implemented in Python using the following libraries:
 
 pandas: Data manipulation and analysis.
